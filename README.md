@@ -19,13 +19,13 @@ Run Network_Jammed.get_network(N(number_of_nodes), '1', network_id_num) to outpu
 - import a network using the instructions in the Network_Jammed section. 
 - select the total time for training
 - select the number of oscillations in that training
-- select the training/ testing strain (eps = 1e-6)
+- select the training/ testing strain (eps = -1e-6)
 - pass these arguments to osc(net, train_length, num_osc, eps) which will output the networks after successive bond cuts during training, the bulk moduli throughout training (Bs), and the shear moduli (Gs) throughout training.
 
 #### Control Training
 - import a network using the instructions in the Network_Jammed section. 
 - select the total time for training
-- select the training/ testing strain (eps = 1e-6)
+- select the training/ testing strain (eps = -1e-6)
 - pass these arguments to train(net, train_length, eps) which will output the networks after successive bond cuts during training, the bulk moduli throughout training (Bs), and the shear moduli (Gs) throughout training.
 
 #### Poisson Ratio
